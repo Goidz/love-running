@@ -78,7 +78,7 @@ nav {
     display: none;
 }
 
--nav-toggle-label {
+.nav-toggle-label {
     font-size: 2rem;
 }
 
@@ -129,4 +129,13 @@ footer {
         /* Push main content down to accomodate larger header */
         margin-top: 96.6px;
    }
+}
+
+/* media query: large devices Laptops and desktops (768px and up */
+@media screen and (min-width: 992px) {
+
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+    
 }
