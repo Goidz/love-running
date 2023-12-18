@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     /*Generic project styles*/
     color: #3a3a3a;
-    font-family: 'lato', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 h1,
@@ -55,7 +55,7 @@ header a {
     list-style-type: none;
 }
 
-#menu>li {
+#menu > li {
     margin-bottom: 1em;
 }
 
@@ -63,7 +63,7 @@ header a {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* Navbar styles dropdown menu */
+/* Navbar styles with dropdown menu */
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -90,7 +90,7 @@ nav {
 
 /* Main content */
 main {
-    /* Make main element take up any surplus space to push footer down */
+    /* Enlarge main element to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
 
@@ -238,7 +238,7 @@ main {
     }
 
     #menu>li {
-        padding: 1rem;
+        padding-left: 1rem;
     }
 
     .nav-toggle-label {
@@ -302,7 +302,7 @@ main {
 }
 
 @media screen and (min-width: 1200px) {
-
+    
     /* Reasons section */
     #benefits {
         display: flex;
